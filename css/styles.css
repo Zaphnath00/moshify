@@ -21,7 +21,6 @@ h1, h2, h3{
 }
 h1{
     font-size: 7rem;
-
 }
 h2{
     font-size: 4rem;
@@ -68,4 +67,54 @@ a{
     .link-arrow{
         font-size: 1.5rem;
     }
+}
+/*badges*/
+.badge{
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    white-space: nowrap;
+}
+.badge--primary{
+    background: var(--color-primary);
+    color: white;
+}     
+.badge--secondary{
+    background: var(--color-secondary);
+    color: white;
+}
+.badge--small{
+    font-size: 1.6rem;
+}
+@media screen and ( min-width: 1024px){
+    .badge{
+        font-size: 1.5rem;
+    }
+    .badge--small{
+        font-size: 1.2rem;
+    }
+}
+/*lists*/
+.list{
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-heading);
+}
+.list--inline .list__item{
+display: inline-block;
+margin-right: 2rem;
+}
+.list--tick{
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
+} 
+.list--tick .list__item{
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px) {
+.list--tick .list__item{
+    padding-left: 0;
+}
 }
