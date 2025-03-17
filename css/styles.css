@@ -219,5 +219,36 @@ margin-right: 2rem;
     .input{
         font-size: 1.5 rem;
     }
-    
+
+}
+.card--secondary{
+    border-radius: 7px;
+    box-shadow: 0 0 20px 10px #f3f3f3;
+    overflow: hidden;
+}
+.card__header{
+    color: white;
+    background: var(--color-secondary);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card__body{
+    padding: 2rem 3rem;
+}
+/*media*/
+.media{
+display: flex;
+}
+.media__image{
+    margin-top: 1rem;
+
+}
+.media__object{
+    margin-left: 2rem;
+}
+.media__title{
+    margin-top: 0;
+
 }
